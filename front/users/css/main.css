@@ -1,0 +1,106 @@
+* {  
+    margin: 0;  
+    padding: 0; 
+    font-family: "微软雅黑";
+    letter-spacing: 0.1rem; 
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+textarea {
+    resize: none;
+}
+
+body {
+    width: 100%;
+    height: 40rem;
+    background-color: #B9DCED;
+    padding-top: 6rem;
+    overflow: auto;
+}
+
+.head {
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    background-color: #87CEFA;
+    top: 0rem;
+}
+
+.font {
+    position: fixed;
+    width: 100%;
+    height: 3.4rem;
+    bottom: 0rem;
+    background-color: #ffffff;
+}
+
+.main {
+    width: 100%;
+    padding-bottom: 4rem; 
+}
+
+.list {
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 0.6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.Icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #000000;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    float: left;
+}
+
+.inf {
+    float: right;
+    width: 70%;
+    margin-right: 4%;
+}
+
+.ID {
+    margin-top: 1rem;
+}
+
+.listContent {
+    margin: 1rem auto;
+    width: 90%;
+    
+}
+
+.fontNav {
+    display: block;
+    float: left;
+    margin-left: 4.6rem;
+}
+
+.fontPng {
+    display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: 0.4rem;
+    margin-left: 0.4rem;
+}
+
+.fontAdd {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin-top: -1rem;
+}
+
+.fontText {
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
+}

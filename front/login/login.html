@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Share</title>
+    <script>!function(a,b,c){function q(){var d=Math.min((o?e[h]().width:f.innerWidth)/(a/b),c);d!=p&&(k.innerHTML="html{font-size:"+d+"px!important;"+n+"}",p=d)}function r(){clearTimeout(l),l=setTimeout(q,500)}var l,d=document,e=d.documentElement,f=window,g="addEventListener",h="getBoundingClientRect",i="pageshow",j=d.head||d.getElementsByTagName("HEAD")[0],k=d.createElement("STYLE"),m="text-size-adjust:100%;",n="-webkit-"+m+"-moz-"+m+"-ms-"+m+"-o-"+m+m,o=h in e,p=null;a=a||320,b=b||16,c=c||32,j.appendChild(k),d[g]("DOMContentLoaded",q,!1),"on"+i in f?f[g](i,function(a){a.persisted&&r()},!1):f[g]("load",r,!1),f[g]("resize",r,!1),q()}(
+        320,10,30);</script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="logo">Share</div>
+        <form action="../../server/login.php" class="mainForm" method="POST">
+            <div class="loginContiner account">
+                <p class="loginTable">账号</p>
+                <textarea class="loginTextarea" name="account"></textarea>
+            </div>
+            <div class="loginContiner password">
+                <p class="loginTable">密码</p>
+                <textarea class="loginTextarea" name="password"></textarea>
+            </div>
+            <button class="loginIn">登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+        </form>
+        <div class="loginNav">
+            <a class="loginNavList" href="#">找回密码</a>
+            <a class="loginNavList" href="../register/register.html">注册账号</a>
+        </div>
+    </div>
+</body>
+
+</html>

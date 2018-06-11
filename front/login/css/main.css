@@ -1,0 +1,104 @@
+* {  
+    margin: 0;  
+    padding: 0;
+    overflow: hidden;  
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+textarea {
+    resize: none;
+}
+
+body {
+    width: 100%;
+    height: 62.8rem;
+    background-color: #B9DCED;
+    /* padding-top: 30%; */
+}
+
+.main {
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    /* background-color: #B8FFB8; */
+    padding-top: 10%;
+    border-radius: 1rem;
+}
+
+.logo {
+    width: 100%;
+    height: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 10rem;
+    font-size: 8rem;
+    /* color: #FFB5A1; */
+    color: #ffffff;
+}
+
+.mainForm {
+    margin-top: 1.2rem;
+}
+
+.loginContiner {
+    width: 80%;
+    height: 4rem;
+    margin: auto;
+}
+
+.account {
+    margin-top: 2.6rem;
+}
+
+.password {
+    margin-top: 1.8rem;
+}
+
+.loginTable {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-right: 10%;
+}
+
+.loginTextarea {
+    width: 60%;
+    height: 2.6rem;
+    border: none;
+    border-radius: 0.6rem;
+    display: inline-block;
+    margin-bottom: 0.6rem;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 4%;
+}
+
+.loginIn {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    height: 2.6rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #7bbfea;
+    text-decoration: none;
+}
+
+.loginNav {
+    margin-top: 8rem;
+    margin-left: 12rem;
+}
+
+.loginNavList {
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 1rem;
+    color: gray;
+}
